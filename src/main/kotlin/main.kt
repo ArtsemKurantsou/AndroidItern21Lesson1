@@ -14,5 +14,6 @@ fun getBill(): Array<Any> {
 }
 
 fun solution() {
+    //Print all the items
 
 }
