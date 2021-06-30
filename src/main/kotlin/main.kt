@@ -3,6 +3,7 @@ fun main(args: Array<String>) {
 }
 
 const val TAX_CA = 0.13f
+const val TAX_TX = 0.10f
 const val TAX_DEFAULT = 0.10f
 
 fun getCurrentState(): String {
@@ -23,5 +24,6 @@ fun getBill(): Array<Any> {
 
 fun solution() {
     //Calculate price with TAX based on state
+    //For Texas TAX is also applied to tips
 
 }
