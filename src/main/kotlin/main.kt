@@ -2,6 +2,8 @@ fun main(args: Array<String>) {
     solution()
 }
 
+const val TAX = 0.13f
+
 fun getBill(): Array<Any> {
     return arrayOf(
         "cashier#1",
@@ -15,6 +17,6 @@ fun getBill(): Array<Any> {
 }
 
 fun solution() {
-    //Print whole amount
+    //Calculate price with TAX
 
 }
