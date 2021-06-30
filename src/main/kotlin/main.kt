@@ -9,11 +9,12 @@ fun getBill(): Array<Any> {
         3,
         "water",
         "espresso",
-        "caesar"
+        "caesar",
+        "10$"
     )
 }
 
 fun solution() {
-    //Print all the items
+    //Print whole amount
 
 }
