@@ -2,7 +2,12 @@ fun main(args: Array<String>) {
     solution()
 }
 
-const val TAX = 0.13f
+const val TAX_CA = 0.13f
+const val TAX_DEFAULT = 0.10f
+
+fun getCurrentState(): String {
+    return "CA"
+}
 
 fun getBill(): Array<Any> {
     return arrayOf(
@@ -17,6 +22,6 @@ fun getBill(): Array<Any> {
 }
 
 fun solution() {
-    //Calculate price with TAX
+    //Calculate price with TAX based on state
 
 }
